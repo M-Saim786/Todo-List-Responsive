@@ -1,0 +1,133 @@
+@media screen and (max-width:350px) {
+  #show{
+    width: 138% !important;
+    margin: 11px -28px !important;
+    height: 45vh !important;
+  }
+  #show ul{
+    margin: 0px -15px;
+  }
+  .btn-danger{
+    margin-right: 0px !important;
+  }
+}
+
+
+.main {
+  display: inline-block;
+  width: 80%;
+}
+#to_do_Box li {
+  border-radius: 10px;
+  list-style: none;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: white;
+  background-image: linear-gradient(to right, #24aeea, #0d72a1);
+  width: 95%;
+  user-select: none;
+}
+
+#to_do_Box li:hover {
+  background-image: linear-gradient(to right, #0d72a1, #242424);
+}
+.btn-danger {
+  float: right;
+  margin-right: 40px;
+}
+
+.bodydark {
+  background-color: black ;
+  color: white ;
+}
+.text-white {
+  color: white ;
+}
+.fa-solid {
+  color: rgb(0, 195, 255) ;
+  margin-right: 8px;
+}
+.active {
+  color: white ;
+}
+
+#show {
+  border: 1px solid white;
+  padding: 10px 10px;
+  margin: 20px 0;
+  height: 50vh;
+  border-radius: 10px;
+}
+#show ul li {
+  /* border: 1px solid black; */
+  margin: 10px 0;
+}
+
+/*        Alert  */
+.alert {
+  border-left: 4px solid #ffa502 ;
+  position: absolute !important;
+  right: 10px !important;
+  top: 40px !important;
+  z-index: 2 !important;
+  min-width: 30%  !important;
+  padding: 14px 20px !important;
+  background-color: #ffdb9b !important;
+  color: #ce8500 !important;
+  font-family: sans-serif !important;
+}
+.hide {
+  display: none;
+}
+.show {
+  animation: show_alert 1s ease forwards;
+}
+@keyframes show_alert {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+.fa-exclamation-circle {
+  /* border: 1px solid red; */
+  color: #ce8500;
+  font-size: 24px;
+  margin: 5px 12px;
+}
+.msg {
+  /* border: 1px solid red; */
+  padding: 0px 5px;
+  font-size: 18px;
+  margin-left: -12px;
+}
+.close-btn {
+  padding: 14px 24px;
+  background-color: #ffd080;
+  font-size: 22px;
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 0px;
+  right: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: #ffc776;
+}
+#success {
+  border-left: 4px solid #07a414 !important;
+  background-color: #60ff60 !important;
+  color: green;
+}
+#close-alert-success {
+  background-color: #00e013;
+}
+#close-alert-success:hover {
+  background-color: #00e013;
+}
+.s_icon {
+  color: green;
+}
